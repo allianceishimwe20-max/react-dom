@@ -1,4 +1,22 @@
 import inkweto1 from "../assets/inkweto1.webp"
+import save1 from "../assets/save1.png"
+import save2 from "../assets/save2.png"
+import save3 from "../assets/save3.png"
+import save4 from "../assets/save4.png"
+import prada1 from "../assets/prada1.png"
+import prada2 from "../assets/prada2.png"
+import prada3 from "../assets/prada3.png"
+import prada4 from "../assets/prada4.png"
+import prada5 from "../assets/prada5.png"
+
+import fotoo1 from "../assets/fotoo1.webp"
+import fotoo2 from "../assets/fotoo2.webp"
+import fotoo3 from "../assets/fotoo3.webp"
+import fotoo4 from "../assets/fotoo4.webp"
+import fotoo5 from "../assets/fotoo5.webp"
+import fotoo6 from "../assets/fotoo6.webp"
+
+import { IoLogoInstagram } from "react-icons/io";
 
 function AboutUs() {
     return (
@@ -46,8 +64,98 @@ function AboutUs() {
                 </div>
             </div>
             <div>
-                <h1 className="aaaaa">Our Team</h1>
+                <h1 className="saving">Our Team</h1>
             </div>
+            <div>
+                <img className="save" src={save1} alt="" />
+                <img className="save" src={save2} alt="" />
+                <img className="save" src={save3} alt="" />
+                <img className="save" src={save4} alt="" />
+            </div>
+            <div>
+              <img className="lllll" src={prada1} alt="" />
+               <img className="lllll" src={prada2} alt="" /> 
+                <img className="lllll" src={prada3} alt="" /> 
+                 <img className="lllll" src={prada4} alt="" /> 
+                  <img className="lllll" src={prada5} alt="" />   
+
+            </div>
+
+             <div className="fotooa">
+                            <div className="column-section">
+                                <h1>Instagram Shop</h1>
+                                <p>Tag @miniture in your Instagram photos for <br />
+                                    a chance to be featured here.</p>
+                                <button className="button-section1">Visit our Instagram</button>
+                            </div>
+                            <div className="images">
+                                <div fotooaa>
+                                    <div>
+                                        <img className="fotou1" src={fotoo1} alt="" />
+                                        
+                                           <div className="Image-section-a">
+                                           <IoLogoInstagram className="Instergram-icon" />
+                                           </div>
+                                    </div>
+            
+                                     <div>
+                                          <img className="fotoo2" src={fotoo2} alt="" />
+                                        
+                                           <div className="Image-section-a">
+                                           <IoLogoInstagram className="Instergram-icon" />
+                                           </div>
+                                    </div>
+                                   
+                                  
+                                </div>
+                                <div className="fotoob">
+                                    <div>
+                                          <img className="fotou3" src={fotoo3} alt="" />
+                                        
+                                           <div className="Image-section-a">
+                                           <IoLogoInstagram className="Instergram-icon" />
+                                           </div>
+                                    </div>
+            
+                                      <div>
+                                           <img className="fotoo4" src={fotoo4} alt="" />
+                                        
+                                           <div className="Image-section-a">
+                                           <IoLogoInstagram className="Instergram-icon" />
+                                           </div>
+                                    </div>
+                                        
+                                    
+                                    
+                                   
+                                </div>
+                                <div className="fotooc">
+                                       <div>
+                                          <img className="fotoo5" src={fotoo5} alt="" />
+                                        
+                                           <div className="Image-section-a">
+                                           <IoLogoInstagram className="Instergram-icon" />
+                                           </div>
+                                    </div>
+            
+                                     <div>
+                                           <img className="fotoo6" src={fotoo6} alt="" />
+                                        
+                                           <div className="Image-section-a">
+                                           <IoLogoInstagram className="Instergram-icon" />
+                                           </div>
+                                    </div>
+            
+                                    
+                                   
+                                </div>
+            
+                            </div>
+            
+            
+            
+                        </div>
+            
         </div>
     )
 }

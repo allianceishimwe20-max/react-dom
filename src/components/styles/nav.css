@@ -774,6 +774,83 @@ justify-content: center;
 .kkkkk{
   font-size:5rem;
 }
+.saving{
+    display: flex;
+    justify-content: center;
+}
+.save{
+margin-left: 40px;
+ gap: 1rem;
+ width: 20rem;
+ height: 23rem;
+}
+.lllll{
+    width: 10rem;
+    height: 7rem;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+/* .imagesi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fotooaa{
+    display: flex;
+    flex-direction: row;
+}
+.fotoobb{
+    display: flex;
+    flex-direction: row;
+}
+.lights{
+    display: flex;
+    justify-content: end;
+}
+.fotoocc{
+    d
+} */
+.imagesi{
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+    height: 20px;
+    margin-left: 25rem;
+    
+    
+}
+
+.fotooaa{
+
+    width: 50px;
+    height: 50px;
+}
+.fotou1{
+
+    width: 15rem;
+     border-radius: 20px;
+    
+}
+.fotoo2{
+   width: 15rem;
+    border-radius: 20px; 
+}
+.fotou3{
+  width: 15rem;
+   border-radius: 20px;
+}
+.fotoo4{
+    width: 15rem;
+     border-radius: 20px; 
+}
+.fotoo5{
+     width: 15rem; 
+      border-radius: 20px;
+}
+.fotoo6{
+    width: 15rem; 
+     border-radius: 20px;
+}
 
 
 
